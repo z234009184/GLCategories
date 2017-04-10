@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GLCategories"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "A series categories of iOS"
 
   # This description is used to generate tags and improve search results.
