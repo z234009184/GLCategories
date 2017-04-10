@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GLCategories"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "A series categories of iOS"
 
   # This description is used to generate tags and improve search results.
@@ -11,7 +11,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "a series categories of iOS"
+s.description  = <<-DESC
+a series categories of iOS
+DESC
 
   s.homepage     = "https://github.com/z234009184/GLCategories"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -76,8 +78,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes/*.{h,m}'
-  s.exclude_files = "GLCategories/Exclude"
+  s.source_files  = 'GLCategories/*.{h,m}'
+  # s.exclude_files = "GLCategories/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
